@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: pyTauDEM
+Version: 0.1.0
+Summary: A Python implementation of Tarboton's D-infinity terrain analysis for hydrological modeling.
+Author-email: Rui Gao <Rui.Ray.Gao@gmail.com>
+Project-URL: Homepage, https://https://github.com/RuiGao9/pyTauDEM
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rasterio>=1.3.0
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: pyproj>=3.0.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: geopandas>=0.12.0
+Requires-Dist: shapely>=2.0.0
+Dynamic: license-file
+
+# pyTauDEM
