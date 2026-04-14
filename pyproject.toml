@@ -8,7 +8,7 @@ version = "0.1.0"
 authors = [
   { name="Rui Gao", email="Rui.Ray.Gao@gmail.com" },
 ]
-description = "A Python implementation of Tarboton's D-infinity terrain analysis for hydrological modeling."
+description = "A Python implementation of TauDEM for slope calculation"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [

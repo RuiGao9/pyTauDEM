@@ -4,7 +4,6 @@ pyproject.toml
 pyTauDEM/__init__.py
 pyTauDEM/algorithm.py
 pyTauDEM/core.py
-pyTauDEM/utils.py
 pyTauDEM.egg-info/PKG-INFO
 pyTauDEM.egg-info/SOURCES.txt
 pyTauDEM.egg-info/dependency_links.txt

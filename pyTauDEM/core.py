@@ -62,22 +62,8 @@ class pyTauDEM:
 
 
     def plot_location(self, lon, lat, buffer=2.0, verbose=True):
-        import geopandas as gpd
-        import matplotlib.pyplot as plt
-        from shapely.geometry import Point
-
         # 1. Get low-resolution map directly from public libraries
-        # This is a lightweight GeoJSON, usually loads quickly
-        # url = "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip"
-        # try:
-        #     world = gpd.read_file(url)
-        #     print("The Natural Earth dataset for the background map has been loaded.")
-        # except:
-        #     # If the above link fails due to network issues, try another backup link
-        #     world = gpd.read_file("https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/world.geojson")
-        #     print("The backup dataset for the background map has been loaded.")
-        # usa = world[world.CONTINENT == "North America"]
-
+        # This is a lightweight GeoJSON, usually loads quickly, but we also provide a backup URL in case the primary source is down
         # Loading the world map for plotting
         url = "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip"
         backup_url = "https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/world.geojson"
