@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyTauDEM"
+version = "0.1.0"
+authors = [
+  { name="Rui Gao", email="Rui.Ray.Gao@gmail.com" },
+]
+description = "A Python implementation of Tarboton's D-infinity terrain analysis for hydrological modeling."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Hydrology",
+]
+dependencies = [
+    "rasterio>=1.3.0",
+    "numpy>=1.22.0",
+    "pandas>=1.5.0",
+]
+
+[project.urls]
+"Homepage" = "https://https://github.com/RuiGao9/pyTauDEM"
