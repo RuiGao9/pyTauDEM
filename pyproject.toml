@@ -8,7 +8,7 @@ version = "0.1.0"
 authors = [
   { name="Rui Gao", email="Rui.Ray.Gao@gmail.com" },
 ]
-description = "A Python implementation of TauDEM for slope calculation"
+description = "Topographic feature extraction via Python-based TauDEM algorithm"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
