@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19583013.svg)](https://doi.org/10.5281/zenodo.19583013)
-![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9/pyTauDEM)<br>
+![Stars](https://img.shields.io/github/stars/RuiGao9/pyTauDEM?style=social)<br>
 
 # Topographic feature extraction via Python-based TauDEM algorithm
 This repository used the TauDEM algorithm introduced by [Tarbuton (1997)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/96wr03137) for slope calculation and a few other topographic feature extraction based on DEM data.
