@@ -172,6 +172,3 @@ class pyTauDEM:
         """Remember to close the raster file when done to free up resources"""
         self.src.close()
 
-
-
-
